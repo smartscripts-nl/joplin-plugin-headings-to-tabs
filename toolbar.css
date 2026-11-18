@@ -1,0 +1,13 @@
+.headings-to-tabs-icon {
+  display: inline-block;
+  width: 1.3em;
+  height: 1.3em;
+  flex: none;
+  background-color: currentColor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 8V5a2 2 0 0 1 2-2h5l3 5m0-3h6a2 2 0 0 1 2 2v1M3 8h18v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+button[aria-pressed="true"] .toolbar-icon.headings-to-tabs-icon {
+  /* Use the toolbar's foreground color, like Read Distraction Free. */
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cmask id='tabs'%3E%3Crect width='24' height='24' fill='white'/%3E%3Cpath d='M4 8h16M11.2 5l1.8 3' fill='none' stroke='black' stroke-width='1.5'/%3E%3C/mask%3E%3Cpath d='M3 19V5a2 2 0 0 1 2-2h5l1.2 2H19a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z' fill='black' stroke='black' stroke-width='1.5' stroke-linejoin='round' mask='url(%23tabs)'/%3E%3C/svg%3E");
+}

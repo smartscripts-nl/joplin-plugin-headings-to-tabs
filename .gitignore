@@ -1,0 +1,7 @@
+/dist/
+/*.jpl
+/tabs-state.json*
+/reader-warning.txt*
+/reader-toast.txt*
+/viewer.css
+/viewer.js
