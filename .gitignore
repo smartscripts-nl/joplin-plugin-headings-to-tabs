@@ -5,3 +5,7 @@
 /reader-toast.txt*
 /viewer.css
 /viewer.js
+/node_modules/
+/publish/
+/.idea/
+/.npmrc

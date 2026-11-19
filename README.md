@@ -11,11 +11,11 @@ A Joplin Desktop plugin that groups level-two Markdown headings and their conten
 From the repository root, create the plugin archive:
 
 ```sh
-mkdir -p dist
-tar --format=ustar -cf dist/Headings-to-Tabs.jpl manifest.json index.js markdown.js rich-text.js toolbar.css LICENSE
+npm ci --ignore-scripts
+npm run dist
 ```
 
-In Joplin, open **Tools → Options → Plugins**, choose **Install from file** in the gear menu, select the archive, and restart Joplin.
+In Joplin, open **Tools → Options → Plugins**, choose **Install from file** in the gear menu, select `publish/com.joplin.plugin.headings-to-tabs.jpl`, and restart Joplin.
 
 Use **Tools → Options → Headings to Tabs** to adjust the plugin settings and **Keyboard Shortcuts** to change its shortcut. The default is **Ctrl+Alt+Shift+T**.
 

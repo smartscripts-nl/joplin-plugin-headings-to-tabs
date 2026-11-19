@@ -84,11 +84,11 @@ function refreshEditor(doc, settings) {
 
 exports.start = () => {
   if (typeof window === 'undefined') return;
-  const key = Symbol.for('com.alexpot.headings-to-tabs.rich-text');
+  const key = Symbol.for('com.joplin.plugin.headings-to-tabs.rich-text');
   if (window[key]) return;
   window[key] = true;
   const readers = new Map();
-  const autoTabsKey = Symbol.for('com.alexpot.headings-to-tabs.enable-on-load');
+  const autoTabsKey = Symbol.for('com.joplin.plugin.headings-to-tabs.enable-on-load');
   const warningFile = path.join(__dirname, 'reader-warning.txt');
   // Joplin opens detached note editors as same-origin about:blank windows.
   // This also works when Read Distraction Free is absent.

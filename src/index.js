@@ -141,7 +141,7 @@ joplin.plugins.register({
     await joplin.window.loadChromeCssFile(pathToFileURL(path.join(directory, 'toolbar.css')).href);
 
     const shortcutInfoFile = path.join(await joplin.plugins.dataDir(), 'shortcut-info.css');
-    const settingsPanel = '[id="setting-section-plugin-com.alexpot.headings-to-tabs.headingsToTabs"]';
+    const settingsPanel = '[id="setting-section-plugin-com.joplin.plugin.headings-to-tabs.headingsToTabs"]';
     const settingsItems = settingsPanel + ' .config-screen-settings-container > div > div:has(+ [id^="advanced_settings_"])';
     const shortcutInfo = strings.shortcutInfo + ': ' + (actual || strings.unassigned);
     await fs.writeFile(shortcutInfoFile, `
