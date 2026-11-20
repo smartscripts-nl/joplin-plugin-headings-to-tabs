@@ -1,4 +1,3 @@
-/dist/
 /*.jpl
 /tabs-state.json*
 /reader-warning.txt*
@@ -9,5 +8,4 @@
 /publish/
 /.idea/
 /.npmrc
-src/manifest.json
-
+/axinfo.md
