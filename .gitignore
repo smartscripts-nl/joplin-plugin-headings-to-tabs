@@ -9,3 +9,5 @@
 /publish/
 /.idea/
 /.npmrc
+src/manifest.json
+
