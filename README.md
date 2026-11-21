@@ -24,7 +24,7 @@ npm run dist
 
 In Joplin, open **Tools → Options → Plugins**, choose **Install from file** in the gear menu, select `publish/com.joplin.plugin.headings-to-tabs.jpl`, and restart Joplin.
 
-Use **Tools → Options → Headings to Tabs** to adjust the plugin settings and **Keyboard Shortcuts** to change its shortcut. The default is **Ctrl+Shift+T**.
+Use **Tools → Options → Headings to Tabs** to adjust the plugin settings and **Keyboard Shortcuts** to change its shortcut. The default is **Ctrl+Shift+T**. The hotkey functions as a toggle: pressing it once again, will undo the tabs display mode.
 
 ## Colofon
 
